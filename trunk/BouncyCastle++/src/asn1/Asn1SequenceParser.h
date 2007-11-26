@@ -1,6 +1,7 @@
 // 
 // File:   ASN1SequenceParser.h
-// Author: watsug
+// Author: Adam Augustyn
+//         CryptoTech, http://www.cryptotech.com.pl
 //
 // Created on November 26, 2007, 3:10 AM
 //
