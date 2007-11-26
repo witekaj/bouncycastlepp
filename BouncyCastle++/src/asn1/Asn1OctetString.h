@@ -15,11 +15,11 @@
 //using System.Text;
 
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
-      using namespace Org.BouncyCastle.Utilities;
-      using namespace Org.BouncyCastle.Utilities.Encoders;
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
+      using namespace org.bouncycastle.utilities;
+      using namespace org.bouncycastle.utilities.encoders;
       
       class Asn1OctetString : public Asn1Object, public Asn1OctetStringParser {
         internal byte[] str;
@@ -119,9 +119,9 @@ namespace Org {
         }
       }
         
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 #endif	/* _ASN1OCTETSTRING_H */
 

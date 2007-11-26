@@ -1,6 +1,7 @@
 // 
 // File:   BerGenerator.h
-// Author: watsug
+// Author: Adam Augustyn
+//         CryptoTech, http://www.cryptotech.com.pl
 //
 // Created on November 26, 2007, 10:14 AM
 //
@@ -10,11 +11,10 @@
 
 using System.IO;
 
-using Org.BouncyCastle.Utilities.IO;
-
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
+      using namespace org.bouncycastle.utilities.io;
   
       class BerGenerator : public Asn1Generator {
       private:
@@ -77,9 +77,9 @@ namespace Org {
         }
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 #endif	/* _BERGENERATOR_H */
 

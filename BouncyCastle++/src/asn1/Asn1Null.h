@@ -9,9 +9,9 @@
 #ifndef _ASN1NULL_H
 #define	_ASN1NULL_H
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
       
       /**
        * A Null object.
@@ -25,9 +25,9 @@ namespace Org {
         }        
       };
 
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 #endif	/* _ASN1NULL_H */
 

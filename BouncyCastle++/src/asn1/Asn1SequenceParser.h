@@ -9,18 +9,18 @@
 #ifndef _ASN1SEQUENCEPARSER_H
 #define	_ASN1SEQUENCEPARSER_H
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
 	
       Asn1SequenceParser : public IAsn1Convertible {
         public:
         virtual IAsn1Convertible ReadObject() = 0;
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 #endif	/* _ASN1SEQUENCEPARSER_H */
 

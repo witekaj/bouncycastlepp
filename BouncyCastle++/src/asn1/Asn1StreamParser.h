@@ -1,6 +1,7 @@
 // 
 // File:   Asn1StreamParser.h
-// Author: watsug
+// Author: Adam Augustyn
+//         CryptoTech, http://www.cryptotech.com.pl
 //
 // Created on November 26, 2007, 9:52 AM
 //
@@ -11,9 +12,9 @@
 using System;
 using System.IO;
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
       
     	class Asn1StreamParser {
       private:
@@ -184,9 +185,9 @@ namespace Org {
         }
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 
 #endif	/* _ASN1STREAMPARSER_H */

@@ -11,18 +11,18 @@
 
 using System.IO;
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
       
     	class Asn1OctetStringParser : public IAsn1Convertible {
       public:
         Stream GetOctetStream();
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 
 #endif	/* _ASN1OCTETSTRINGPARSER_H */
