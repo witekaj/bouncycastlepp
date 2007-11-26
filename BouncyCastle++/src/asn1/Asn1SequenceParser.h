@@ -16,7 +16,7 @@ namespace org {
       Asn1SequenceParser : public IAsn1Convertible {
         public:
         virtual IAsn1Convertible ReadObject() = 0;
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

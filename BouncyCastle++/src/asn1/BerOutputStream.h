@@ -1,13 +1,13 @@
 // 
-// File:   Asn1OutputStream.h
+// File:   BerOutputStream.h
 // Author: Adam Augustyn
 //         CryptoTech, http://www.cryptotech.com.pl
 //
-// Created on November 26, 2007, 2:56 AM
+// Created on November 26, 2007, 11:48 AM
 //
 
-#ifndef _ASN1OUTPUTSTREAM_H
-#define	_ASN1OUTPUTSTREAM_H
+#ifndef _BEROUTPUTSTREAM_H
+#define	_BEROUTPUTSTREAM_H
 
 //using System.IO;
 
@@ -15,12 +15,13 @@ namespace org {
   namespace bouncycastle {
     namespace asn1 {
       
-      class Asn1OutputStream : public DerOutputStream {
+      // TODO Make Obsolete in favour of Asn1OutputStream?
+      class BerOutputStream : public DerOutputStream {
       public:
-        Asn1OutputStream(Stream os) : base(os) {
+        BerOutputStream(Stream os) : base(os) {
         }
 
-        void WriteObject(object obj) {
+        virtual void WriteObject(object obj) {
           if (obj == null) {
             WriteNull();
           } else if (obj is Asn1Object) {
@@ -28,7 +29,7 @@ namespace org {
           } else if (obj is Asn1Encodable) {
             ((Asn1Encodable)obj).ToAsn1Object().Encode(this);
           } else {
-            throw new IOException("object not Asn1Encodable");
+            throw new IOException("object not BerEncodable");
           }
         }
       };
@@ -37,7 +38,5 @@ namespace org {
   } //namespace bouncycastle
 } //namespace org
 
-
-
-#endif	/* _ASN1OUTPUTSTREAM_H */
+#endif	/* _BEROUTPUTSTREAM_H */
 

@@ -413,7 +413,7 @@ namespace org {
           }
           return tagNo;
         }
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

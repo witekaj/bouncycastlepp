@@ -50,7 +50,7 @@ namespace org {
         IEnumerator GetEnumerator() {
           return v.GetEnumerator();
         }
-    	}
+    	};
 
     } //namespace asn1
   } //namespace bouncycastle

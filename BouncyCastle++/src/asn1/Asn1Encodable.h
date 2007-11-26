@@ -74,7 +74,7 @@ namespace org {
 
         public abstract Asn1Object ToAsn1Object();
         }
-      }
+      };
 
     } //namespace asn1
   } //namespace bouncycastle

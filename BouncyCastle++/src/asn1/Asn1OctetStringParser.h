@@ -18,7 +18,7 @@ namespace org {
     	class Asn1OctetStringParser : public IAsn1Convertible {
       public:
         Stream GetOctetStream();
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

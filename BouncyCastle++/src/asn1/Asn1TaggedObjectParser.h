@@ -17,7 +17,7 @@ namespace org {
       public:
         int TagNo { get; }
         IAsn1Convertible GetObjectParser(int tag, bool isExplicit);
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

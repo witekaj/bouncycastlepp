@@ -197,7 +197,7 @@ namespace org {
         virtual string ToString() {
           return CollectionUtilities.ToString(seq);
         }
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

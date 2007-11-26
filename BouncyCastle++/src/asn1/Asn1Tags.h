@@ -45,7 +45,7 @@ namespace org {
         static const int Constructed = 0x20;
         static const int Application = 0x40;
         static const int Tagged = 0x80;
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

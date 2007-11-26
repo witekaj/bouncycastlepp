@@ -183,7 +183,7 @@ namespace org {
           }
           return v;
         }
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

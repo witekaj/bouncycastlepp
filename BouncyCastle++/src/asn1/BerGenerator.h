@@ -75,7 +75,7 @@ namespace org {
             Out.WriteByte(0x00);
           }
         }
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle
