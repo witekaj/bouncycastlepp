@@ -1,6 +1,7 @@
 // 
 // File:   BerOctetString.h
-// Author: watsug
+// Author: Adam Augustyn
+//         CryptoTech, http://www.cryptotech.com.pl
 //
 // Created on November 26, 2007, 10:22 AM
 //
@@ -8,13 +9,13 @@
 #ifndef _BEROCTETSTRING_H
 #define	_BEROCTETSTRING_H
 
-using System;
-using System.Collections;
-using System.IO;
+//using System;
+//using System.Collections;
+//using System.IO;
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
       
       class BerOctetString : public DerOctetString, public IEnumerable {
       private:
@@ -118,9 +119,9 @@ namespace Org {
         }
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 #endif	/* _BEROCTETSTRING_H */
 

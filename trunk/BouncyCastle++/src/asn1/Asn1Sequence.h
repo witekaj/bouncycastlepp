@@ -12,11 +12,10 @@
 //using System;
 //using System.Collections;
 
-using Org.BouncyCastle.Utilities.Collections;
-
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
+      using namespace org.bouncycastle.utilities.collections;
   
       class Asn1Sequence : public Asn1Object, public IEnumerable {
       private:
@@ -200,9 +199,9 @@ namespace Org {
         }
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 #endif	/* _ASN1SEQUENCE_H */
 

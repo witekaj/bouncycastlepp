@@ -11,9 +11,9 @@
 
 //using System.Collections;
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
   
       class Asn1EncodableVector : IEnumerable {
 
@@ -52,9 +52,9 @@ namespace Org {
         }
     	}
 
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 #endif	/* _ASN1ENCODABLEVECTOR_H */
 

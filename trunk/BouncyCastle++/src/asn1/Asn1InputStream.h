@@ -15,9 +15,9 @@ using System.IO;
 
 using Org.BouncyCastle.Asn1.Utilities;
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
 
       /**
        * a general purpose ASN.1 decoder - note: this class differs from the
@@ -415,9 +415,9 @@ namespace Org {
         }
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 
 #endif	/* _ASN1INPUTSTREAM_H */

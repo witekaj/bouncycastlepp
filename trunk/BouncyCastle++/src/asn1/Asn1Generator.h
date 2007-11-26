@@ -10,9 +10,9 @@
 
 //using System.IO;
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
       
       public abstract class Asn1Generator {
       private:
@@ -31,9 +31,9 @@ namespace Org {
         virtual Stream GetRawOutputStream() = 0;
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 
 #endif	/* _ASN1GENERATOR_H */

@@ -1,6 +1,7 @@
 // 
 // File:   Asn1Tags.h
-// Author: watsug
+// Author: Adam Augustyn
+//         CryptoTech, http://www.cryptotech.com.pl
 //
 // Created on November 26, 2007, 10:10 AM
 //
@@ -8,9 +9,9 @@
 #ifndef _ASN1TAGS_H
 #define	_ASN1TAGS_H
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
       
       class Asn1Tags {
       public:
@@ -46,9 +47,9 @@ namespace Org {
         static const int Tagged = 0x80;
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 
 #endif	/* _ASN1TAGS_H */

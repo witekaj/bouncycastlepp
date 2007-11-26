@@ -1,6 +1,7 @@
 // 
 // File:   Asn1TaggedObject.h
-// Author: watsug
+// Author: Adam Augustyn
+//         CryptoTech, http://www.cryptotech.com.pl
 //
 // Created on November 26, 2007, 10:01 AM
 //
@@ -9,11 +10,12 @@
 #define	_ASN1TAGGEDOBJECT_H
 
 //using System;
-using Org.BouncyCastle.Utilities;
 
-namespace Org {
-  namespace BouncyCastle {
-    namespace Asn1 {
+namespace org {
+  namespace bouncycastle {
+    namespace asn1 {
+      using namespace org.bouncycastle.utilities;
+      
       /**
        * ASN.1 TaggedObject - in ASN.1 notation this is any object proceeded by
        * a [n] where n is some number - these are assume to follow the construction
@@ -144,9 +146,9 @@ namespace Org {
         }
       }
       
-    } //namespace Asn1
-  } //namespace BouncyCastle
-} //namespace Org
+    } //namespace asn1
+  } //namespace bouncycastle
+} //namespace org
 
 
 
