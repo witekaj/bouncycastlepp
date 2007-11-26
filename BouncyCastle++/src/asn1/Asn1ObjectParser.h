@@ -1,6 +1,7 @@
 // 
 // File:   ASN1ObjectParser.h
-// Author: watsug
+// Author: Adam Augustyn
+//         CryptoTech, http://www.cryptotech.com.pl
 //
 // Created on November 23, 2007, 1:05 PM
 //
