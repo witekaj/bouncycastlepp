@@ -8,8 +8,33 @@
         <logicalFolder name="f1" displayName="asn1" projectFiles="true">
           <itemPath>src/asn1/Asn1Encodable.h</itemPath>
           <itemPath>src/asn1/Asn1EncodableVector.h</itemPath>
-          <itemPath>src/asn1/ASN1Generator.h</itemPath>
+          <itemPath>src/asn1/Asn1Generator.h</itemPath>
           <itemPath>src/asn1/Asn1InputStream.h</itemPath>
+          <itemPath>src/asn1/Asn1Null.h</itemPath>
+          <itemPath>src/asn1/Asn1Object.h</itemPath>
+          <itemPath>src/asn1/Asn1ObjectParser.h</itemPath>
+          <itemPath>src/asn1/Asn1OctetString.h</itemPath>
+          <itemPath>src/asn1/Asn1OctetStringParser.h</itemPath>
+          <itemPath>src/asn1/Asn1OutputStream.h</itemPath>
+          <itemPath>src/asn1/Asn1Sequence.h</itemPath>
+          <itemPath>src/asn1/Asn1SequenceParser.h</itemPath>
+          <itemPath>src/asn1/Asn1Set.h</itemPath>
+          <itemPath>src/asn1/Asn1SetParser.h</itemPath>
+          <itemPath>src/asn1/Asn1StreamParser.h</itemPath>
+          <itemPath>src/asn1/Asn1TaggedObject.h</itemPath>
+          <itemPath>src/asn1/Asn1TaggedObjectParser.h</itemPath>
+          <itemPath>src/asn1/Asn1Tags.h</itemPath>
+          <itemPath>src/asn1/BerGenerator.h</itemPath>
+          <itemPath>src/asn1/BerNull.h</itemPath>
+          <itemPath>src/asn1/BerOctetString.h</itemPath>
+          <itemPath>src/asn1/BerOctetStringGenerator.h</itemPath>
+          <itemPath>src/asn1/BerOctetStringParser.h</itemPath>
+          <itemPath>src/asn1/BerOutputStream.h</itemPath>
+          <itemPath>src/asn1/BerSequence.h</itemPath>
+          <itemPath>src/asn1/BerSequenceGenerator.h</itemPath>
+          <itemPath>src/asn1/BerSequenceParser.h</itemPath>
+          <itemPath>src/asn1/BerSet.h</itemPath>
+          <itemPath>src/asn1/BerSetParser.h</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -45,16 +70,91 @@
         <archiverTool>
         </archiverTool>
       </compileType>
-      <item path="src/asn1/ASN1Generator.h">
-        <itemTool>3</itemTool>
-      </item>
       <item path="src/asn1/Asn1Encodable.h">
         <itemTool>3</itemTool>
       </item>
       <item path="src/asn1/Asn1EncodableVector.h">
         <itemTool>3</itemTool>
       </item>
+      <item path="src/asn1/Asn1Generator.h">
+        <itemTool>3</itemTool>
+      </item>
       <item path="src/asn1/Asn1InputStream.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Null.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Object.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1ObjectParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1OctetString.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1OctetStringParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1OutputStream.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Sequence.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1SequenceParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Set.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1SetParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1StreamParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1TaggedObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1TaggedObjectParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Tags.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerGenerator.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerNull.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerOctetString.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerOctetStringGenerator.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerOctetStringParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerOutputStream.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSequence.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSequenceGenerator.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSequenceParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSet.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSetParser.h">
         <itemTool>3</itemTool>
       </item>
     </conf>
@@ -79,16 +179,91 @@
         <archiverTool>
         </archiverTool>
       </compileType>
-      <item path="src/asn1/ASN1Generator.h">
-        <itemTool>3</itemTool>
-      </item>
       <item path="src/asn1/Asn1Encodable.h">
         <itemTool>3</itemTool>
       </item>
       <item path="src/asn1/Asn1EncodableVector.h">
         <itemTool>3</itemTool>
       </item>
+      <item path="src/asn1/Asn1Generator.h">
+        <itemTool>3</itemTool>
+      </item>
       <item path="src/asn1/Asn1InputStream.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Null.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Object.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1ObjectParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1OctetString.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1OctetStringParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1OutputStream.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Sequence.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1SequenceParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Set.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1SetParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1StreamParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1TaggedObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1TaggedObjectParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/Asn1Tags.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerGenerator.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerNull.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerOctetString.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerOctetStringGenerator.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerOctetStringParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerOutputStream.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSequence.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSequenceGenerator.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSequenceParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSet.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerSetParser.h">
         <itemTool>3</itemTool>
       </item>
     </conf>
