@@ -48,7 +48,7 @@ namespace org {
         virtual int CallAsn1GetHashCode() {
           return Asn1GetHashCode();
         }
-      }
+      };
 
     } //namespace asn1
   } //namespace bouncycastle

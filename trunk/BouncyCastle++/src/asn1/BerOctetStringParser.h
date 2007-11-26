@@ -37,7 +37,7 @@ namespace org {
             throw new InvalidOperationException("IOException converting stream to byte array: " + e.Message, e);
           }
         }
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

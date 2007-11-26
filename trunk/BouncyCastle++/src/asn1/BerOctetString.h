@@ -117,7 +117,7 @@ namespace org {
             base.Encode(derOut);
           }
         }
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

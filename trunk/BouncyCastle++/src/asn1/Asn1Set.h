@@ -262,7 +262,7 @@ namespace org {
         std::string ToString() {
           return CollectionUtilities.ToString(_set);
         }
-      }
+      };
 
     } //namespace asn1
   } //namespace bouncycastle

@@ -89,7 +89,7 @@ namespace org {
             base.Close();
           }
         }
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

@@ -29,7 +29,7 @@ namespace org {
 
       public:
         virtual Stream GetRawOutputStream() = 0;
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle

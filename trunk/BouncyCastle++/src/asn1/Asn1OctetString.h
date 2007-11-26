@@ -117,7 +117,7 @@ namespace org {
           byte[] hex = Hex.Encode(str);
           return std::string("#") + Encoding.ASCII.GetString(hex, 0, hex.Length);
         }
-      }
+      };
         
     } //namespace asn1
   } //namespace bouncycastle

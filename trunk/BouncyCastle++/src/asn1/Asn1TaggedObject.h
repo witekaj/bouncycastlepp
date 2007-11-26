@@ -144,7 +144,7 @@ namespace org {
         virtual std::string ToString() {
           return std::string("[") + tagNo + std::string("]") + obj;
         }
-      }
+      };
       
     } //namespace asn1
   } //namespace bouncycastle
