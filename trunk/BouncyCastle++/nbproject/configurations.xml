@@ -35,6 +35,8 @@
           <itemPath>src/asn1/BerSequenceParser.h</itemPath>
           <itemPath>src/asn1/BerSet.h</itemPath>
           <itemPath>src/asn1/BerSetParser.h</itemPath>
+          <itemPath>src/asn1/BerTaggedObject.h</itemPath>
+          <itemPath>src/asn1/BerTaggedObjectParser.h</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -157,6 +159,12 @@
       <item path="src/asn1/BerSetParser.h">
         <itemTool>3</itemTool>
       </item>
+      <item path="src/asn1/BerTaggedObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerTaggedObjectParser.h">
+        <itemTool>3</itemTool>
+      </item>
     </conf>
     <conf name="Release" type="3">
       <toolsSet>
@@ -264,6 +272,12 @@
         <itemTool>3</itemTool>
       </item>
       <item path="src/asn1/BerSetParser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerTaggedObject.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/BerTaggedObjectParser.h">
         <itemTool>3</itemTool>
       </item>
     </conf>
