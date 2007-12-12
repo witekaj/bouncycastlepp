@@ -39,6 +39,9 @@
           <itemPath>src/asn1/BerTaggedObjectParser.h</itemPath>
           <itemPath>src/asn1/ConstructedOctetStream.h</itemPath>
           <itemPath>src/asn1/DefiniteLengthInputStream.h</itemPath>
+          <itemPath>src/asn1/DerApplicationSpecific.h</itemPath>
+          <itemPath>src/asn1/DerBitString.h</itemPath>
+          <itemPath>src/asn1/DerBmpString.h</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -173,6 +176,15 @@
       <item path="src/asn1/DefiniteLengthInputStream.h">
         <itemTool>3</itemTool>
       </item>
+      <item path="src/asn1/DerApplicationSpecific.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/DerBitString.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/DerBmpString.h">
+        <itemTool>3</itemTool>
+      </item>
     </conf>
     <conf name="Release" type="3">
       <toolsSet>
@@ -292,6 +304,15 @@
         <itemTool>3</itemTool>
       </item>
       <item path="src/asn1/DefiniteLengthInputStream.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/DerApplicationSpecific.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/DerBitString.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/asn1/DerBmpString.h">
         <itemTool>3</itemTool>
       </item>
     </conf>
